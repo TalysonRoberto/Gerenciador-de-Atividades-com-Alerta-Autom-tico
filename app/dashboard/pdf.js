@@ -123,7 +123,7 @@ autoTable(doc, {
   doc.line(70, 275, 140, 275);
   doc.setFontSize(8);
   doc.setFont("helvetica", "normal");
-  doc.text("Coordenação de Operações Lanlink", 83, 280);
+  doc.text("Coordenação de Operações task", 83, 280);
 
   // Salva o arquivo
   doc.save(`TASK_RELATORIO_${date.split('/').reverse().join('-')}.pdf`);
