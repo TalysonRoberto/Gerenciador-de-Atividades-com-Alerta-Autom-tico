@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Realizar Backup",
+    "descricao": "Realizar Backup",
+    "hora_entrega": "2026-03-18T11:00",
+    "recorrente": true,
+    "dias_semana": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": 1773841665716,
+    "referencia": "#0001",
+    "status": "andamento",
+    "hora_registro": "2026-03-18T13:47:45.716Z",
+    "hora_entrega_inicial": "2026-03-18T11:00",
+    "criado_por": {
+      "nome": "Talyson Roberto Nascimento Sousa",
+      "matricula": "3023"
+    },
+    "registros": [],
+    "motivo": ""
+  }
+]
