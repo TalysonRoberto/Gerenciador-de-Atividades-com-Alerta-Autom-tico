@@ -116,6 +116,12 @@ npm run dev
 
 ---
 
-# 👤 Autor
+### 📝 Créditos do Projeto
 
-Desenvolvido com a "Alquimia do JS" por **Talyson Roberto**
+**Project:** Task - Gerenciador de Atividades  
+**Desenvolvido por:** [Talyson Roberto](https://github.com/TalysonRoberto)  
+
+**Colaboração de:** [José Nogueira](https://github.com/netonog)  
+**Revisado por:** [John William](https://github.com/johnwilliamam)
+
+---

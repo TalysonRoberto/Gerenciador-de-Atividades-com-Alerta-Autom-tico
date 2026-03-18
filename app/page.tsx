@@ -1,3 +1,9 @@
+/*
+ * Project: Task - Gerenciador de Atividades
+ * Author: Talyson Roberto
+ * Collaborative: José Nogueira
+ */
+
 "use client"
 import { useEffect, useState } from "react"
 import FilterBadges from "@/components/FilterBadges"
