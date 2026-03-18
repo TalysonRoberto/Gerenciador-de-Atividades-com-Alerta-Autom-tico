@@ -7,7 +7,7 @@ O **Task** é uma solução Full-Stack para gestão de chamados e monitoramento 
 **🔐 Controle de Acesso (ACL):** Sistema de permissões baseado em perfis (ADM e JEDI) persistidos em JSON.
 **📊 Dashboard BI:** Visualização de indicadores de produtividade, SLA e performance de técnicos.
 **📄 Relatórios PDF:** Geração dinâmica de relatórios de atividades para usuários autorizados.
-**🛡️ Gestão de Usuários:** Interface administrativa para cadastro de novos gestores via integração com API Lanlink.
+**🛡️ Gestão de Usuários:** Interface administrativa para cadastro de novos gestores via integração com API.
 
 ---
 
@@ -44,12 +44,12 @@ O **Task** é uma solução Full-Stack para gestão de chamados e monitoramento 
 
 # 🛠️ Tecnologias Utilizadas
 
-**Core:** Next.js 16 (Turbopack)
-**Styling:** Tailwind CSS (Aesthetic Technomancer/Dark Mode)
-**Charts:** Recharts (Evolução de 7 dias)
-**PDF:** jsPDF / jsPDF-AutoTable
-**Icons:** Lucide React
-**Automation:** Power Automate (Adaptive Cards)
+- **Core:** Next.js 16 (Turbopack)
+- **Styling:** Tailwind CSS (Aesthetic Technomancer/Dark Mode)
+- **Charts:** Recharts (Evolução de 7 dias)
+- **PDF:** jsPDF / jsPDF-AutoTable
+- **Icons:** Lucide React
+- **Automation:** Power Automate (Adaptive Cards)
 
 ---
 
@@ -58,8 +58,8 @@ O **Task** é uma solução Full-Stack para gestão de chamados e monitoramento 
 Clonar o projeto
 
 ```bash
-git https://DEV-CGS@dev.azure.com/DEV-CGS/Projetos%20CGS/_git/Painel-Atividades
-cd Painel-Atividades
+git https://github.com/TalysonRoberto/Gerenciador-de-Atividades-com-Alerta-Autom-tico
+cd Gerenciador-de-Atividades-com-Alerta-Automatico
 ```
 
 Instalar dependências
