@@ -6,6 +6,7 @@ import bglogin from '../../img/bg-login.png'
 import Image from 'next/image';
 import taskLogo from '../../img/icon.png';
 
+
 export default function LoginPage() {
   const router = useRouter();
   const [form, setForm] = useState({ login: "", password: "" });
@@ -18,13 +19,13 @@ export default function LoginPage() {
     setLoading(true);
 
     try {
-      const resp = await fetch("http://204.216.132.232:3000/auth", {
+      const resp = await fetch(`${process.env.NEXT_PUBLIC_URL_API}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
           login: form.login.trim(), 
           password: form.password.trim(), 
-          client: "lanlink" 
+          client:  `${process.env.NEXT_PUBLIC_CLIENTE}` 
         })
       });
 
@@ -80,7 +81,7 @@ export default function LoginPage() {
             </div>
 
             <p className="text-gray-400 text-[10px] ">
-              @ Lanlink {new Date().getFullYear()}
+              @ Task {new Date().getFullYear()}
             </p>
           </div>
         </div>

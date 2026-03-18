@@ -2,7 +2,7 @@
   {
     "nome": "Realizar Backup",
     "descricao": "Realizar Backup",
-    "hora_entrega": "2026-03-18T11:00",
+    "hora_entrega": "2026-03-18T11:30",
     "recorrente": true,
     "dias_semana": [
       1,
@@ -13,14 +13,38 @@
     ],
     "id": 1773841665716,
     "referencia": "#0001",
-    "status": "andamento",
+    "status": "resolvido",
     "hora_registro": "2026-03-18T13:47:45.716Z",
     "hora_entrega_inicial": "2026-03-18T11:00",
     "criado_por": {
       "nome": "Talyson Roberto Nascimento Sousa",
       "matricula": "3023"
     },
-    "registros": [],
-    "motivo": ""
+    "registros": [
+      {
+        "id": 1773843632705,
+        "infor": "Backup em andamento.",
+        "data": "2026-03-18T14:20:32.705Z",
+        "autor": {
+          "nome": "Talyson Roberto Nascimento Sousa",
+          "matricula": "3023"
+        },
+        "acao": "renovado"
+      },
+      {
+        "id": 1773843648920,
+        "infor": "Atividade realizado.\nBackup realizado com sucesso",
+        "data": "2026-03-18T14:20:48.920Z",
+        "autor": {
+          "nome": "Talyson Roberto Nascimento Sousa",
+          "matricula": "3023"
+        },
+        "acao": "resolvido"
+      }
+    ],
+    "motivo": "Atividade realizado.\nBackup realizado com sucesso",
+    "ultima_notificacao": "2026-03-18T14:20:31.509Z",
+    "ultima_atualizacao": "2026-03-18T14:20:48.920Z",
+    "notificado": false
   }
 ]

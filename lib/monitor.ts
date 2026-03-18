@@ -3,7 +3,7 @@ import path from "path";
 
 const filePath = path.join(process.cwd(), "data/atividades.json");
 // URL configurada como "Qualquer pessoa" no Power Automate
-const POWER_AUTOMATE_URL = "https://030c180aed64e15d80b27beed05970.ed.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/80b0f69822c74ac7a0849c5dc18145c3/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=5xPAnDnB2Y0u2Y1LRn1AatY6TEaPMdyFt0Uuw5oJFu0";
+const POWER_AUTOMATE_URL = `${process.env.NEXT_PUBLIC_POWER_AUTOMATE_URL}`;
 
 export async function verificarAtividadesExpiradas() {
   if (!fs.existsSync(filePath)) return;

@@ -21,11 +21,11 @@ export default function ModalNovoAdm({ fechar }: { fechar: () => void }) {
       try {
         const creds = JSON.parse(localStorage.getItem("task_user_creds") || "{}");
         
-        const response = await fetch("http://204.216.132.232:3000/findUsersByName", {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_URL_API_SEARCH}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            client: "lanlink",
+            client: `${process.env.NEXT_PUBLIC_CLIENTE}`,
             userFind: pesquisa,
             userLogin: creds.userLogin,
             password: creds.password
@@ -98,7 +98,7 @@ export default function ModalNovoAdm({ fechar }: { fechar: () => void }) {
           <div className="space-y-2">
             <div className="space-y-2 relative">
             <label className="text-[11px] font-black text-gray-500 uppercase flex items-center gap-2">
-              <UserSearch size={12} /> Pesquisar na Lanlink
+              <UserSearch size={12} /> Pesquisar
             </label>
             <div className="relative">
               <input 

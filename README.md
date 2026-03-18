@@ -37,6 +37,9 @@ O **Task** é uma solução Full-Stack para gestão de chamados e monitoramento 
 ![dadosatividade](./Doc/dadosatividade.png)
 ![historicoresolucao](./Doc/historicoresolucao.png)
 
+**Cadastrar Novo Adm**
+![cadastrarnovoadm](./Doc/cadastrarnovoadm.png)
+
 ---
 
 # 🛠️ Tecnologias Utilizadas
@@ -65,6 +68,15 @@ Instalar dependências
 npm install
 ```
 
+Configure o .env
+
+```
+NEXT_PUBLIC_URL_API= url_do_login
+NEXT_PUBLIC_CLIENTE= cliente_se_a_api_solicitar
+NEXT_PUBLIC_URL_API_SEARCH= url_de_pesquisa_de_usuario
+NEXT_PUBLIC_POWER_AUTOMATE_URL= url_da_coexão_com_o_powerautomate
+```
+
 ---
 
 # ⚙️ Estrutura de Dados e Segurança
@@ -88,11 +100,7 @@ Painel-Atividades
 
 # ⚙️ Configuração do Power Automate
 
-O fluxo permanece via gatilho HTTP POST. No arquivo **lib/monitor.ts**, configure sua URL:
-
-```javascript
-const POWER_AUTOMATE_URL = "SUA_URL_AQUI"
-```
+O fluxo permanece via gatilho HTTP POST. No arquivo **lib/monitor.ts**, configure sua URL no .env
 
 ---
 
