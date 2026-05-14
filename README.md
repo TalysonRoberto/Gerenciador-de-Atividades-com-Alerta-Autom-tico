@@ -16,7 +16,7 @@ O **Task** é uma solução Full-Stack para gestão de chamados e monitoramento 
 ![logina](./Doc/login.png)
 
 **Home**
-![home](./Doc/home.png)
+![home](./Doc/00_home.png)
 
 **Dashboard**
 ![dashboard_1](./Doc/dashboard_1.png)
